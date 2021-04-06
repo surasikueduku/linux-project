@@ -8,15 +8,15 @@ echo "4. Ham with Pineapple Sauce"
 echo "5. Italian Sausage with Tomato Sauce"
 read -p "Please choose one your favorite pasta above [1-5] >> " pasta
 if [[ $pasta == 1 ]]; then
-echo "Thanks for choosing our Creamy Mushroom with Shrimp Pasta"
+echo "Thank you for choosing our Creamy Mushroom with Shrimp Pasta"
 elif [[ $pasta == 2 ]]; then
-echo "Thanks for choosing our Baked Chicken with Alfredo Sauce Pasta" 
+echo "Thank you for choosing our Baked Chicken with Alfredo Sauce Pasta" 
 elif [[ $pasta == 3 ]]; then
-echo "Thanks for choosing our Meatball with Red Onion Pasta" 
+echo "Thank you for choosing our Meatball with Red Onion Pasta" 
 elif [[ $pasta == 4 ]]; then
 echo "Thanks for choosing our Ham with Pineappe Sauce Pasta" 
 elif [[ $pasta == 5 ]]; then
-echo "Thanks for choosing our Italian Sausage with Tomato Sauce Pasta" 
+echo "Thank you for choosing our Italian Sausage with Tomato Sauce Pasta" 
 else
 echo "Invalid entry"
 fi
@@ -44,15 +44,15 @@ echo "4. Mini Apple Pies"
 echo "5. Ice Cream Sundae (pick-up only)"
 read -p "Please choose one your favorite pasta above [1-5] >> " pasta
 if [[ $pasta == 1 ]]; then
-echo "Thanks for choosing Chocolate Cookies"
+echo "Thank you for choosing Chocolate Cookies"
 elif [[ $pasta == 2 ]]; then
-echo "Thanks for choosing Cinamon with Almonds Chips" 
+echo "Thank you for choosing Cinamon with Almonds Chips" 
 elif [[ $pasta == 3 ]]; then
-echo "Thanks for choosing Garlic Butter Sticks" 
+echo "Thank you for choosing Garlic Butter Sticks" 
 elif [[ $pasta == 4 ]]; then
-echo "Thanks for choosing Mini Applie Pies" 
+echo "Thank you for choosing Mini Applie Pies" 
 elif [[ $pasta == 5 ]]; then
-echo "Thanks for choosing Ice Cream Sundae" 
+echo "Thank you for choosing Ice Cream Sundae" 
 else
 echo "Invalid entry"
 fi
