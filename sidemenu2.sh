@@ -1,4 +1,12 @@
 #!/bin/bash
+#----------------------------------------
+#creators: Andrea, Fatine, Danny, Lera
+#---------------------------------------
+#----------------------------------------
+#sudo apt install figlet
+#----------------------------------------
+#Welcome and CUstomer input
+figlet -c "Welcome to FADL Pizza"
 # pasta
 echo "Please choose your favorite PASTA:"
 echo "1. Creamy Mushroom with Shrimp"
