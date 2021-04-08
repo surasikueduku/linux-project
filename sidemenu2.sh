@@ -29,7 +29,7 @@ else
 echo "Invalid entry"
 fi
 # pasta size
-echo "Please select the size of the bowl for your pasta:"
+figlet -c  "Please select the size of the bowl for your pasta:"
 echo "1. Small size $ 6.99"
 echo "2. Medium size $ 7.99"
 echo "3. Large size $ 8.99"
@@ -44,7 +44,7 @@ else
 echo "Invalid entry"
 fi
 # Dessert
-echo "Please choose your favorite DESSERT:"
+figlet -c  "Please choose your favorite DESSERT:"
 echo "1. Chocolate Cooies"
 echo "2. Cinamon with Almonds Chips"
 echo "3. Garlic Butter Sticks"
@@ -65,7 +65,7 @@ else
 echo "Invalid entry"
 fi
 # Dessert size
-echo "Please select the size of the Bag for your DESSERT:"
+figlet -c  "Please select the size of the Bag for your DESSERT:"
 echo "1. Small Bag $ 2.99"
 echo "2. Medium Bag $ 3.99"
 echo "3. Large Bag $ 4.99"
