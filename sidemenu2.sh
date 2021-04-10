@@ -6,13 +6,14 @@
 #sudo apt install figlet
 #----------------------------------------
 #Welcome and CUstomer input
+display pizza.png
 sgr0
 tput bold
 tput setab 1
 figlet -f isometric1 pizza
 figlet -c "Welcome to FLAD Pizza * ^ . ^ *" -f small
 tput sgr0 
-echo -e "\033[33;5mTitle of the Program\033[0m"
+echo -e "\033[33;5mPlease choose your favorite PASTA\033[0m"
 # pasta
 echo "Please choose your favorite PASTA:"
 echo "1. Creamy Mushroom with Shrimp"
