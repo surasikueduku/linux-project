@@ -195,7 +195,7 @@ echo "We offer a variety of crust flavors:"
 tput blink
 echo "-----------------------------------------------------" | lolcat
 echo " Crust Flavor" | lolcat
-echo " ------------------------------------------------------" | lolcat
+echo " ----------------------------------------------------" | lolcat
 tput sgr0
 echo " 
  1. no flavor
@@ -243,7 +243,7 @@ clear
 echo " "
 elif [ $CHOICE -eq 2 ]; then
 #elif [ $SIGNATURE -eq 2 ]; then
-echo " --------------------------------------------------------"
+echo "------------------------------------------------------"
 echo " Let us have you build your own pizza" 
 echo " All create your own pizza come with your choice of crust type, up to
 3 toppings, crust flavor, and your personal choice of cheese. "
@@ -251,17 +251,17 @@ tput sgr0
 tput blink
 echo "------------------------------------------------------" | lolcat
 echo " size           Slices          Price        Order number" | lolcat
-echo "........................................................." | lolcat
+echo "......................................................" | lolcat
 tput sgr0
 echo " Personal        4 slices        $ 10            1       " | lolcat
 echo " Medium          8 slices        $ 13            2       " | lolcat
 echo " Large           8 slices        $ 15            3       " | lolcat
 #------------------------------------------------------
 #Build your own pizza crust types
-#-----------------------------------------------------
+#------------------------------------------------------
 echo " "
 tput blink
-echo "------------------------------------------------------" | lolcat
+echo "-------------------------------------------------------" | lolcat
 echo " Crust choice:" | lolcat
 echo " ------------------------------------------------------" | lolcat
 tput sgr0
@@ -383,7 +383,7 @@ echo " "
 tput blink
 echo "------------------------------------------------------" | lolcat
 echo " Wings Flavors:" | lolcat
-echo "-------------------------------------------------------" | lolcat
+echo "------------------------------------------------------" | lolcat
 sleep 2
 tput sgr0
 echo "
@@ -406,7 +406,7 @@ echo " "
 tput blink
 echo "------------------------------------------------------" | lolcat
 echo " Wings size: " | lolcat
-echo " ------------------------------------------------------" | lolcat
+echo " -----------------------------------------------------" | lolcat
 tput sgr0
 echo "
 1. 6 pieces $ 6
@@ -614,7 +614,7 @@ This is the list of our sauce options" | lolcat
 tput blink
 echo " ------------------------------------------------------" | lolcat
 echo " Sauce Options:" | lolcat
-echo "------------------------------------------------------" | lolcat
+echo "-------------------------------------------------------" | lolcat
 tput sgr0
 echo "
 1. Classic Marinara
@@ -669,7 +669,7 @@ done
 #echo "------------------------------------------------------"
 #echo "------------------------------------------------------"
 #echo " Payment Options:"
-#echo " ------------------------------------------------------"
+#echo " -----------------------------------------------------"
 #read -p " Please confirm if you prefer to pay cash or credict card. Type 1 for cash and 2 for credit card: " payment
 #if [[ $payment -eq 1 ]]; then
 #echo " Thank you for confirming. Please have your cash ready"
