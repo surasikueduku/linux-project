@@ -143,10 +143,10 @@ main_menu
 if [ $CHOICE -eq 1 ]; then
 echo " Great choice $F_NAME. At FLAD pizza you may choose one of our signature pizza or build your own"
 
-echo "-----------------------------------------------------" 
+echo "--------------------------------------------------------" 
 echo " Our FLAD signature pizza comes with your choice of crust, crust flavor, and classic marinara"
 tput blink
-echo "-------------------------------------------" | lolcat
+echo "---------------------------------------------------------" | lolcat
 echo " size           Slices          Price        Order number" | lolcat
 echo "........................................................." | lolcat
 tput sgr0
